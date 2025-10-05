@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File Upload Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="upload-container">
+    <h2>File Upload Manager</h2>
+    
+    <input type="file" id="fileInput" />
+    
+    <div id="fileDetails" class="hidden">
+      <p><strong>File Name:</strong> <span id="fileName"></span></p>
+      <p><strong>File Size:</strong> <span id="fileSize"></span></p>
+      <button id="uploadBtn">Upload</button>
+      <button id="removeBtn">Remove</button>
+    </div>
+    
+    <p id="uploadStatus"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
